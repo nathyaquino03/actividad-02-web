@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7eb06;
+    background-image: url(../imagen/fondo2.jpg) ;
+}
+
+header {
+    background-color: #f506a5;
+    color: rgb(241, 240, 237);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #0f060d;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ec08ce;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+button{
+    border: none;
+    background-color: aliceblue;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Estilos para el contenedor */
+.contenedor {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgb(221, 211, 211);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-image: url(../imagen/helado2.jpg);
+}
+
+/* Estilos para las imágenes */
+.imagenes img, .contenedor img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
